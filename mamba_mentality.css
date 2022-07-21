@@ -1,0 +1,76 @@
+/* GENERAL STYLES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(https://i.ytimg.com/vi/UhUULG_74kM/maxresdefault.jpg) no-repeat center center/ cover;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.5rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 3px;
+}
+
+.main-content {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 0 10px;
+    display: absolute;
+    margin: 40px; 
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 2rem;
+    margin-top: 220px;
+}
+
+.button-area button {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+}
+
+.button-area button:active {
+    background-color: #d7d7d7;
+    color: #000
+}
+
+
+
+
+
